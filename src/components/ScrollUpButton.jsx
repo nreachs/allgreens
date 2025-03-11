@@ -1,4 +1,3 @@
-import React from 'react';
 import {MoveUp} from "lucide-react"
 
 const ScrollUpButton = () => {
