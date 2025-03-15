@@ -20,7 +20,7 @@ const About = () => {
   }, []);
   return (
     <section className="md:px-20 p-5">
-      <div className="mt-1 py-5 bottomBorder">
+      <div className="mt-1 py-5">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
@@ -29,6 +29,7 @@ const About = () => {
         >
           Who we are?
         </motion.h2>
+        <p className="text-center text-lg tracking-tighter lg:text-2xl lg:mx-48 mb-10">"We are a socially conscious e-commerce platform that empowers rural and smallholder farmers by providing them with a stable market for their agricultural produce. Our mission is to bridge the gap between rural and smallholder farmers and consumers in cities."</p>
         {ABOUT_CONTENT.map((about, index) => (
           <div key={index} className="mb-20 mx-4 flex flex-col lg:flex-row">
             <motion.div
@@ -71,12 +72,13 @@ const About = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
                 transition={{ duration: 1 }}
-                className="mb-4 tracking-wide text-lg lg:text-xl lg:leading-8"
+                className="tracking-wide text-lg lg:text-xl lg:leading-8"
               >
                 {about.description}
               </motion.p>
             </div>
           </div>
+          
         ))}
       </div>
     </section>

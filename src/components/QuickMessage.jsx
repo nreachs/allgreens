@@ -2,7 +2,7 @@ import { QUICK_MESSAGE } from "../constants/index.js";
 import {motion} from "framer-motion"
 const QuickMessage = () => {
   return (
-    <div className="mt-1 w-full backG  lg:py-6 ">
+    <div className=" w-full backG  lg:py-6 ">
       <div className="flex overflow-hidden whitespace-nowrap">
         {[...Array(2)].map((item, index) => (
           <motion.h1

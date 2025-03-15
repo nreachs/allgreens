@@ -1,4 +1,3 @@
-import React from "react";
 import { Facebook,Instagram,Twitter} from "lucide-react"
 const Footer = () => {
   return (
@@ -21,7 +20,7 @@ const Footer = () => {
             aria-label="Visit our facebook page"
           >< Twitter size={20}/></a>
         </div>
-        <p className="text-sm">&copy;2025 Allgreens. All Right Reserved.</p>
+        <p className="text-sm">&copy;2025 Allgreens. developed by edmond_nikoh</p>
       </div>
     </footer>
   );

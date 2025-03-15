@@ -1,30 +1,50 @@
-import { Section } from "lucide-react";
 import { CONTACT_INFO } from "../constants";
 import { PhoneCall, MailCheck, MapPinHouse } from "lucide-react";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
-import React from "react";
+import { useState, useEffect } from "react";
+
 
 const ContactUs = () => {
-  useEffect(() => {
-    document.documentElement.style.scrollBehavior = "smooth";
-  }, []);
+  const [isVisible, setIsVisible] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        if (scrollPosition > 100) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
   return (
     <section className="max-w-7xl mx-auto">
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          viewport={{ once: true, amount: 0.2 }}
+       
         className="my-5"
       >
-        <h2 className="text-5xl lg:text-[6rem] font-bold tracking-tighter text-center mb-4 bg-gradient-to-r from-[#ffecc1] via-[#57df83] to-[#229949] bg-clip-text text-transparent">
+        <motion.h2
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
+        transition={{ duration: 1 }}
+        className="text-5xl lg:text-[6rem] font-bold tracking-tighter text-center mb-4 bg-gradient-to-r from-[#ffecc1] via-[#57df83] to-[#229949] bg-clip-text text-transparent">
           Contact Us
-        </h2>
-        <p className="text-center max-w-2xl mx-auto text-lg mb-12">
+        </motion.h2>
+        <motion.p 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
+        transition={{ duration: 1 }}
+        className="text-center max-w-2xl mx-auto text-lg mb-12">
           {CONTACT_INFO.text}
-        </p>
-        <div className="flex flex-col lg:flex-row justify-around mx-4">
+        </motion.p>
+        <motion.div 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
+        transition={{ duration: 1 }}
+        className="flex flex-col lg:flex-row justify-around mx-4">
           <div className="flex mb-8 lg:mb-0">
             <PhoneCall className="text-3xl mr-4" />
             <div>
@@ -52,7 +72,7 @@ const ContactUs = () => {
               <p className="text-neutral-600">{CONTACT_INFO.address.value}</p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </motion.div>
     </section>
   );
