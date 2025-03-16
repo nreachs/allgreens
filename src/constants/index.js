@@ -33,7 +33,7 @@ export const LINKS = [
 
 export const HERO_CONTENT = {
   title: "Allgreens",
-  subtitle: "Bringing Local Freshness To Your Doorstep",
+  subtitle: "Bringing Local Freshness To Your Doorstep.",
   image: hero1,
 };
 
