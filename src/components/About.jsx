@@ -29,9 +29,9 @@ const About = () => {
         >
           Who we are?
         </motion.h2>
-        <p className="text-center text-lg tracking-tighter lg:text-2xl lg:mx-48 mb-10">"We are a socially conscious e-commerce platform that empowers rural and smallholder farmers by providing them with a stable market for their agricultural produce. Our mission is to bridge the gap between rural and smallholder farmers and consumers in cities."</p>
+        <p className="text-center text-lg tracking-tighter lg:text-2xl lg:mx-48 mb-10">"We are a Rwanda-based agribusiness dedicated to sustainable farming, greenhouse cultivation, and farmer empowerment. We provide training in modern agriculture, facilitate access to farm inputs and labor, and promote value addition to reduce post-harvest losses. Our mission is to enhance food security, boost productivity, and create economic opportunities for local communities through climate-smart and innovative agricultural practices."</p>
         {ABOUT_CONTENT.map((about, index) => (
-          <div key={index} className="mb-20 mx-4 flex flex-col lg:flex-row">
+          <div key={index} className="gap-10 pt-5 mx-4 flex flex-col lg:flex-row">
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{

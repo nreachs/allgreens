@@ -1,4 +1,4 @@
-import { Facebook,Instagram,Twitter} from "lucide-react"
+import { Linkedin,Instagram,Twitter} from "lucide-react"
 const Footer = () => {
   return (
     <footer className="md:px-20 px-5">
@@ -13,12 +13,13 @@ const Footer = () => {
             href="https://www.instagram.com/allgreens__rw/"
             target="blank"
             aria-label="Visit our facebook page"
-          >< Facebook size={20}/></a>
+          >< Twitter size={20}/></a>
           <a
             href="https://www.instagram.com/allgreens__rw/"
             target="blank"
             aria-label="Visit our facebook page"
-          >< Twitter size={20}/></a>
+          ><Linkedin size={20}/></a>
+          
         </div>
         <p className="text-sm">&copy;2025 Allgreens. developed by edmond_nikoh</p>
       </div>

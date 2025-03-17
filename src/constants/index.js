@@ -1,5 +1,6 @@
-import hero1 from "../assets/hero1.webp";
-import sample1 from "../assets/sample1.webp";
+import hero1 from "../assets/hero1.jpg";
+import about1 from "../assets/about1.jpg";
+import about2 from "../assets/about2.jpg";
 import service1 from "../assets/service1.jpg";
 import service2 from "../assets/service2.jpg";
 import service3 from "../assets/service3.jpg";
@@ -9,6 +10,11 @@ import car from "../assets/car.webp";
 import products1 from "../assets/products1.jpg";
 import products2 from "../assets/products2.jpg";
 import products3 from "../assets/products3.jpg";
+import products4 from "../assets/products4.jpg";
+import products5 from "../assets/products5.jpg";
+import products6 from "../assets/products6.jpg";
+import products7 from "../assets/products7.jpg";
+import products8 from "../assets/products8.jpg";
 
 
 export const LINKS = [
@@ -33,28 +39,28 @@ export const LINKS = [
 
 export const HERO_CONTENT = {
   title: "Allgreens",
-  subtitle: "Bringing Local Freshness To Your Doorstep.",
+  subtitle: "We provide a range of sustainable agricultural solutions and fresh produce",
   image: hero1,
 };
 
 export const QUICK_MESSAGE =
-  " Fruits, Vegetables, Herbs-Spices-Chilies, Animal Products, Local Fresh Food , ";
+  " Fruits, Vegetables, Herbs-Spices-Chilies, Local Fresh Food , ";
 
 export const ABOUT_CONTENT = [
   {
     title: " ",
     title2: "Our Mission",
     description:
-      "As a one-stop shop for horticultural products, ALLGREENS offers a diverse range of fresh produce. Our portfolio includes fine beans, chillies, avocadoes, sugar snaps, snow peas, Tenderstem broccoli, and more, each cultivated with the utmost care and attention to quality. Operating on over 500 hectares of lush farmland across Rwanda, we have the capacity to meet high-volume demands while ensuring consistent quality.",
-    image: sample1,
+      "We aim to empower Smallholder farmers through sustainable agriculture, modern farming techniques, and value addition. We strive to enhance food security, reduce post-harvest losses, and promote greenhouse farming by providing training, access to farm inputs, and labor resources. Through climate-smart and innovative practices, we aim to create economic opportunities, improve productivity, and contribute to a greener, more sustainable future.",
+    image: about1,
     alt: "allgreens delivery team",
   },
   {
     title: " ",
     title2: "What We Offer",
     description:
-      "As a one-stop shop for horticultural products, ALLGREENS offers a diverse range of fresh produce. Our portfolio includes fine beans, chillies, avocadoes, sugar snaps, snow peas, Tenderstem broccoli, and more, each cultivated with the utmost care and attention to quality. Operating on over 500 hectares of lush farmland across Rwanda, we have the capacity to meet high-volume demands while ensuring consistent quality.",
-    image: sample1,
+      "At All Greens, we are dedicated to sustainable agriculture, empowering farmers, and delivering fresh, high-quality produce. while offering expert training and consultancy on modern farming techniques to boost productivity and sustainability. Our services include greenhouse construction, access to quality farm inputs and skilled labor, and a physical grocery store where customers can purchase the freshest produce. Through these initiatives, we aim to enhance food security, reduce post-harvest losses.",
+    image: about2,
     alt: "allgreens delivery team",
   },
 ];
@@ -63,7 +69,7 @@ export const MISSION_OFFER = [
     id: 1,
     title: "Our Mission",
     description:
-      "We aim to bridge the gap between Rwanda’s agricultural potential and global demand. By promoting sustainable farming practices and integrating local smallholder farmers into our supply chain, we provide premium produce while fostering community development. Our goal is to contribute to food security, enhance nutrition, and support Rwanda’s agricultural growth through strategic partnerships and innovative solutions.",
+      "We aim to empower Smallholder farmers through sustainable agriculture, modern farming techniques, and value addition. We strive to enhance food security, reduce post-harvest losses, and promote greenhouse farming by providing training, access to farm inputs, and labor resources. Through climate-smart and innovative practices, we aim to create economic opportunities, improve productivity, and contribute to a greener, more sustainable future",
   },
   {
     id: 2,
@@ -78,7 +84,7 @@ export const SERVICES = [
     id: 1,
     name: "In house",
     description:
-      "We deliver only the best and consistent fresh produce at your doorstep. It is simple and convenient by only placing your order. We will source, clean, pack and deliver to your doorstep",
+      "Sustainable farming practices ensure high-quality, pesticide-free produce.",
     image: shop,
     link: "#",
   },
@@ -86,7 +92,7 @@ export const SERVICES = [
     id: 2,
     name: "Place order",
     description:
-      "We deliver only the best and consistent fresh produce at your doorstep. It is simple and convenient by only placing your order. We will source, clean, pack and deliver to your doorstep",
+      "Engaging with farmers, communities, and businesses to build a greener, healthier food system.",
     image: orderphone,
     link: "#",
   },
@@ -94,7 +100,7 @@ export const SERVICES = [
     id: 3,
     name: "Home delivery",
     description:
-      "We are the best choice for B2B Fresh produce marketplace because we are reliable and consistent. Connect with us, let's communicate and we deliver on one simple platform.",
+      "Our Physical Grocery Store A dedicated wholesale and retail space where customers can access fresh, locally grown fruits and vegetables straight from our farms",
     image: car,
     link: "#",
   },
@@ -105,7 +111,7 @@ export const PRODUCTS = [
     title: "Social Responsibility",
     content: "Commitment to Social Responsibility",
     description:
-      "Beyond business, ALLGREENS is dedicated to making a positive impact. Our partnerships with smallholder farmers, creation of employment opportunities (with over 80% of our workforce being women), and focus on improving nutrition through diverse crop production highlight our broader commitment to social and economic development.",
+      "We believe in empowering communities by providing training on modern farming techniques and post-harvest loss reduction. Through education and skill development, we equip farmers especially youth and smallholder farmers with the knowledge to increase productivity, reduce waste, and improve food security.",
     imgSrc: service1,
   },
   {
@@ -113,7 +119,7 @@ export const PRODUCTS = [
     title: "Quality",
     content: "Premium Quality Produce",
     description:
-      "ALLGREENS is committed to delivering the highest quality horticultural products, carefully cultivated across 500 hectares of fertile land. With a focus on sustainability and innovation, we ensure that our fruits and vegetables meet the strict standards of international markets, including Europe and the Middle East.",
+      "We prioritize delivering the highest quality produce by adhering to sustainable farming methods. Our pesticide-free, organic approach ensures that customers receive nutritious and safe food while maintaining soil health and biodiversity.",
     imgSrc: service2,
   },
   {
@@ -121,7 +127,7 @@ export const PRODUCTS = [
     title: "Partnerships",
     content: "Strong Partnerships with Smallholder Farmers",
     description:
-      "We work closely with over 1,200 smallholder farmers, providing them with training, resources, and guaranteed market access. This collaboration ensures a reliable and consistent supply of high-quality produce, while also contributing to local economic growth and community empowerment.",
+      "We collaborate with smallholder farmers to enhance their access to markets, agricultural inputs, and technical support. By fostering strong partnerships, we help local farmers improve their livelihoods while contributing to a resilient and inclusive agricultural sector.",
     imgSrc: service3,
   },
 ];
@@ -138,58 +144,58 @@ export const PRODUCTSDATA = [
   },
   {
     id: 2,
-    name: "Yellow Pepper",
+    name: "Tomatoes",
     description:
-      "Yellow bell peppers are a sweet and mild, bright yellow variety of bell pepper, commonly used in salads, stir-fries, and other dishes, offering a crisp, juicy texture and a mild, sweet flavo",
+      "Tomatoes are rich in vitamins (A, C, K), minerals (potassium, folate), and antioxidants like lycopene, offering benefits for eye, heart, and immune health. ",
     image: products2,
     
   },
   {
     id: 3,
-    name: "Yellow Pepper",
+    name: "Cucumber",
     description:
-      "Yellow bell peppers are a sweet and mild, bright yellow variety of bell pepper, commonly used in salads, stir-fries, and other dishes, offering a crisp, juicy texture and a mild, sweet flavo",
+      "Cucumbers hydrating food source, rich in vitamins and minerals like vitamin K,C,P, and magnesium, contributing to a healthy immune system and other health benefits.",
     image: products3,
     
   },
   {
     id: 4,
-    name: "Yellow Pepper",
+    name: "Carrots",
     description:
-      "Yellow bell peppers are a sweet and mild, bright yellow variety of bell pepper, commonly used in salads, stir-fries, and other dishes, offering a crisp, juicy texture and a mild, sweet flavo",
-    image: products1,
+      "Carrots are a good source of beta-carotene (which the body converts into vitamin A), fiber, vitamin K1, potassium, and antioxidants",
+    image: products4,
     
   },
   {
     id: 5,
-    name: "Yellow Pepper",
+    name: "Pumpkin",
     description:
-      "Yellow bell peppers are a sweet and mild, bright yellow variety of bell pepper, commonly used in salads, stir-fries, and other dishes, offering a crisp, juicy texture and a mild, sweet flavo",
-    image: products2,
+      "Pumpkins are rich in vitamins, minerals, and antioxidants, and are low in calories, making them a healthy and weight-loss friendly food. ",
+    image: products5,
     
   },
   {
     id: 6,
-    name: "Yellow Pepper",
+    name: "Spring onion",
     description:
-      "Yellow bell peppers are a sweet and mild, bright yellow variety of bell pepper, commonly used in salads, stir-fries, and other dishes, offering a crisp, juicy texture and a mild, sweet flavo",
-    image: products3,
+      "Spring onions, also known as scallions or green onions, are young onions harvested before their bulbs fully develop, offering a milder flavor than mature onions",
+    image: products6,
     
   },
   {
     id: 7,
-    name: "Yellow Pepper",
+    name: "Lettuce",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: products3,
+      "Lettuce is a leafy green vegetable, with many varieties, commonly used in salads and sandwiches, and known for its crisp texture and mild flavor",
+    image: products7,
     
   },
   {
     id: 8,
-    name: "Yellow Pepper",
+    name: "Garden egg",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: products3,
+      "Garden eggs are a good source of vitamins (A, B6, C), fiber, folate, magnesium, and niacin. ",
+    image: products8,
     
   },
 ];
@@ -198,14 +204,14 @@ export const CONTACT_INFO = {
   text: "If you have any inquiries or suggestions regarding the allgreens brand or our products, please don’t hesitate to contact us. We value and appreciate hearing from our customers.",
   phone: {
     label: "Phone",
-    value: "0780 931 251",
+    value: "0792 107 275",
   },
   email: {
     label: "Email",
-    value: "info@allgreens.com",
+    value: "allgreens250@gmail.com",
   },
   address: {
     label: "Address",
-    value: "KK St28 Kicukiro",
+    value: "KK St395 Kicukiro",
   },
 };
