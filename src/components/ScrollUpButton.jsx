@@ -37,7 +37,7 @@ const ScrollUpButton = () => {
       animate={controls}
       transition={{ duration: 0.5 }}
       onClick={scrollToTop}
-      className="fixed bottom-8 right-8 p-3 bg-[#229949] text-white rounded-full shadow-lg hover:bg-[#62e68e] transition duration-300 hover:scale-95 focus:outline-none"
+      className="fixed bottom-8 right-8 p-3 bg-[#229949] text-white rounded-full shadow-lg hover:bg-[#3d5f4e] transition duration-300 hover:scale-95 focus:outline-none"
       aria-label="Scroll to top"
     >
       <MoveUp size={31} />

@@ -13,7 +13,9 @@ import {
   FastForward,
   ChevronDown,
 } from "lucide-react";
-import logo from "../assets/logo.webp";
+// import logo from "../assets/logo.webp";
+import logo1 from "../assets/logo1.png";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
@@ -22,9 +24,9 @@ const Navbar = () => {
   return (
     <nav className="bottomBorder  ">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4">
-        <div className="pl-2">
+        <div className="pl-1">
           <Link>
-            <img src={logo} width={350} height={100} alt="allgreens" />
+            <img src={logo1} width={100} height={100} alt="allgreens" />
           </Link>
         </div>
         <div className="md:hidden ml-5">

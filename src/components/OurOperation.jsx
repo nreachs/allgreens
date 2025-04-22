@@ -34,7 +34,7 @@ const OurOperation = () =>
                  initial={{ opacity: 0, y: 50 }}
                  animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
                  transition={{ duration: 1 }}
-                 className="mt-8 text-5xl lg:text-[6rem] font-bold tracking-tighter text-center mb-20 bg-gradient-to-r from-[#ffecc1] via-[#57df83] to-[#229949] bg-clip-text text-transparent"
+                 className="mt-8 text-5xl lg:text-[6rem] font-bold tracking-tighter text-center mb-20 bg-gradient-to-r from-[#ffecc1] via-[#57df83] to-[#3d5f4e] bg-clip-text text-transparent"
                >
                  Our Operations
                </motion.h2>
